@@ -1,0 +1,27 @@
+Stack                                    Input                                    Actions                                 
+
+[0]                                      i*i$                                     Shift i
+
+
+[0, 5]                                   *i$                                      Reduce F -> i
+
+
+[0, 3]                                   *i$                                      Reduce T -> F
+
+
+[0, 2]                                   *i$                                      Shift *
+
+
+[0, 2, 7]                                i$                                       Shift i
+
+
+[0, 2, 7, 5]                             $                                        Reduce F -> i
+
+
+[0, 2, 7, 10]                            $                                        Reduce T -> T*F
+
+
+[0, 2]                                   $                                        Reduce E -> T
+
+ACCEPT
+
